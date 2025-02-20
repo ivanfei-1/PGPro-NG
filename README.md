@@ -4,7 +4,7 @@ PGPro-NG is a fork of lucanaef's PGPro to fix issues and make further developmen
 
 ## How to migrate from PGPro
 
-1. Disable your network access on your device.
+1. Disable network access on your device.
 2. Open PGPro. You should now be free from app crashes.
 3. Export your keychain as needed, or use the old app.
 
