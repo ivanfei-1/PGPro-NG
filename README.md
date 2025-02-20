@@ -2,6 +2,12 @@
 
 PGPro-NG is a fork of lucanaef's PGPro to fix issues and make further development.
 
+## How to migrate from PGPro
+
+1. Disable your network access on your device.
+2. Open PGPro. You should now be free from app crashes.
+3. Export your keychain as needed, or use the old app.
+
 PGPro can encrypt and decrypt messages as well as manage all your OpenPGP keys. It is free, simple and lightweight. Everything stays on your device. PGPro is made in Switzerland.
 
 ## Screenshots
