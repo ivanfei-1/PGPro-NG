@@ -38,27 +38,6 @@ enum Constants {
             Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
         }
 
-        static var numRatings: Int {
-            // try to get current number and update cached value
-            ITunesInterface.requestJSON(localizedFor: User.countryCode) { result in
-                switch result {
-                case .failure(let error):
-                    Log.e(error)
-                case .success(let data):
-                    if let data = data[0] as? [String: Any] {
-                        if let userRatingCount = data["userRatingCountForCurrentVersion"] {
-                            let numRatings = userRatingCount as? Int
-                            if let numRatings = numRatings {
-                                Preferences.numRatings = numRatings
-                            }
-                        }
-                    }
-                }
-            }
-            // return cached value
-            return Preferences.numRatings
-        }
-
     }
 
     // MARK: - User Constants

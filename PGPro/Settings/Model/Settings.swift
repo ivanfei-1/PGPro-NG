@@ -134,7 +134,6 @@ class Settings {
         allSettings[SettingsDictKey(.preferences, PreferencesSection.authentication.rawValue)]    = authentication
         allSettings[SettingsDictKey(.feedback, FeedbackSection.sendFeedback.rawValue)]         = reportIssue
         allSettings[SettingsDictKey(.feedback, FeedbackSection.joinBeta.rawValue)]             = joinBeta
-        allSettings[SettingsDictKey(.feedback, FeedbackSection.askForRating.rawValue)]         = askForRating
         allSettings[SettingsDictKey(.about, AboutSection.faq.rawValue)]                     = faq
         allSettings[SettingsDictKey(.about, AboutSection.contribute.rawValue)]              = contribute
         allSettings[SettingsDictKey(.about, AboutSection.privacyPolicy.rawValue)]           = privacyPolicy
@@ -189,7 +188,6 @@ class Settings {
     enum FeedbackSection: Int, CaseIterable {
         case sendFeedback = 0
         case joinBeta = 1
-        case askForRating = 2
 
         static var header: String {
             return "Feedback"
@@ -260,10 +258,6 @@ class Settings {
     let joinBeta            = Setting(title: "Join the PGPro Beta",
                                       symbol: "airplane",
                                       withURL: URL(string: "https://testflight.apple.com/join/BNawuaNF")!)
-    let askForRating        = Setting(title: "Please Rate PGPro",
-                                      symbol: "heart",
-                                      subtitle: "\(Constants.PGPro.numRatings) PEOPLE HAVE RATED PGPRO IN YOUR REGION",
-                                      withURL: URL(string: "https://itunes.apple.com/app/id\(Constants.PGPro.appID)?action=write-review")!)
     let faq                 = Setting(title: "Frequently Asked Questions",
                                       symbol: "questionmark.circle",
                                       withURL: URL(string: "https://pgpro.app/faq/")!)

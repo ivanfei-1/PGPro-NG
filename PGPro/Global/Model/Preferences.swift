@@ -23,7 +23,6 @@ class Preferences {
     static private let defaults = UserDefaults.standard
 
     enum UserDefaultsKeys {
-        static var numRatings = "numRatings"
         static var launchedBefore = "launchedBefore"
         static var mailIntegration = "preference.mailIntegration"
         static var mailIntegrationClient = "preference.mailIntegrationClient"
@@ -33,7 +32,6 @@ class Preferences {
 
     static func setToDefault() {
         defaults.set(true, forKey: UserDefaultsKeys.launchedBefore)
-        defaults.set(0, forKey: UserDefaultsKeys.numRatings)
         defaults.set(false, forKey: UserDefaultsKeys.mailIntegration)
         defaults.set(false, forKey: UserDefaultsKeys.biometricAuthentication)
     }
@@ -59,14 +57,4 @@ class Preferences {
     static var biometricAuthentication: Bool {
         UserDefaults.standard.bool(forKey: UserDefaultsKeys.biometricAuthentication)
     }
-
-    static var numRatings: Int {
-        get {
-            UserDefaults.standard.integer(forKey: UserDefaultsKeys.numRatings)
-        }
-        set {
-            UserDefaults.standard.set(newValue, forKey: UserDefaultsKeys.numRatings)
-        }
-    }
-
 }

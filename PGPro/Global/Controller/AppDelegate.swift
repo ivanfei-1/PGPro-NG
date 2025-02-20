@@ -162,10 +162,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Set default preferences
         Preferences.setToDefault()
-
-        // Get number of ratings (warm up cache)
-        _ = Constants.PGPro.numRatings
-
+        
         self.window?.rootViewController = self.buildTabBarController()
         self.window?.makeKeyAndVisible()
     }
