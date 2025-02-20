@@ -1,13 +1,6 @@
 ![](https://pgpro.app/assets/pgpro_banner.png)
 
-[![License](https://img.shields.io/github/license/lucanaef/PGPro?style=flat)](https://github.com/lucanaef/PGPro/blob/master/LICENSE)
-![Swift](https://img.shields.io/badge/language-swift-orange?style=flat)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/lucanaef/PGPro?style=flat)
-[![iTunes App Store](https://img.shields.io/itunes/v/1481696997?label=App%20Store%20Version&style=flat)](https://apps.apple.com/app/pgpro/id1481696997)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a27e0963b0384739bad90cde28cb08b8)](https://www.codacy.com/manual/lucanaef/PGPro?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lucanaef/PGPro&amp;utm_campaign=Badge_Grade)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flucanaef%2FPGPro.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flucanaef%2FPGPro?ref=badge_shield)
-
-PGPro-NG is a fork of PGPro to fix issues and make further development.
+PGPro-NG is a fork of lucanaef's PGPro to fix issues and make further development.
 
 PGPro can encrypt and decrypt messages as well as manage all your OpenPGP keys. It is free, simple and lightweight. Everything stays on your device. PGPro is made in Switzerland.
 
@@ -21,11 +14,12 @@ PGPro can encrypt and decrypt messages as well as manage all your OpenPGP keys. 
 
 ## Contribution
 
-You are welcome to contribute. Please create a [Pull Request](https://github.com/lucanaef/PGPro/pulls).
+You are welcome to contribute. Please create a [Pull Request](https://github.com/ivanfei-1/PGPro-NG/pulls).
 
 ## Changelog
 
-See [https://pgpro.app/changelog/](https://pgpro.app/changelog/).
+~See [https://pgpro.app/changelog/](https://pgpro.app/changelog/).~
+The website of pgpro is down for now.
 
 ## License
 
@@ -33,7 +27,7 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE
 
 
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flucanaef%2FPGPro.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flucanaef%2FPGPro?ref=badge_large)
+~[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flucanaef%2FPGPro.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flucanaef%2FPGPro?ref=badge_large)~
 
 ## Security Audit
 
